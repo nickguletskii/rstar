@@ -37,6 +37,8 @@ mod rtree;
 
 #[cfg(test)]
 mod test_utilities;
+#[cfg(test)]
+mod fuzz_test;
 
 pub use crate::aabb::AABB;
 pub use crate::algorithm::rstar::RStarInsertionStrategy;
